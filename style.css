@@ -1,0 +1,15 @@
+body {
+    font-family: "Playwrite DE Grund";
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 24px;
+    background-color: #f1e6b5;
+    padding-inline: 48px;
+}
+
+
+a{
+    text-decoration: none;
+}
+

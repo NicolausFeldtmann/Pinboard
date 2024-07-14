@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinboard</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/board.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/posts.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    
+    <script src="./scripts/templates.js"></script>
+    <script src="script.js"></script>
+</head>
+<body onload="init()">
+    <h1>Pinboard</h1>
+
+    <div class="asside">
+        <img class="sideIcon" onclick="showBox()" src="./assets/img/box.png">
+        <div class="box" id="box">
+            <img class="x" onclick="showBox()" src="./assets/img/x.png.png">
+            <div id="boxContent"></div>
+        </div>
+
+        <img class="sideIcon" onclick="showBin()" src="./assets/img/trashcan.png">
+        <div class="bin" id="bin">
+            <img class="x" onclick="showBin()" src="./assets/img/x.png.png">
+            <div id="trashContent"></div>
+        </div>
+        </div>
+
+
+<div class="main">
+    <input placeholder="Worum gehts?" id="titelInput" type="text" required>
+    <textarea class="textarea" placeholder="Was liegt an?" id="noteInput" type="text" required></textarea>
+    <div class="noteIcons">
+        <img class="noteImg" onclick="addNote()" src="./assets/img/pin.png">
+    </div>
+</div>
+    <div class="content" id="content"></div>
+
+
+    
+</body>
+</html>

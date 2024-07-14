@@ -1,0 +1,146 @@
+h1 {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    background-color: rgb(254, 168, 109);
+    font-size: 70px;
+    color: #555555;
+    width: 50vh;
+    padding: 8px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    color: #555555;
+    display: flex;
+    height: 290px;
+    flex-direction: column;
+    background-color: #a3e59e;
+    width: 600px;
+    margin: 32px auto 32px auto;
+    margin-bottom: 64px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    border-radius: 15px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+
+input {
+    font-family: "Playwrite DE Grund";
+    background-color: #a3e59e;
+    font-size: 24px;
+    padding-top: 18px;
+    margin-right: 32px;
+    margin-left: 12px;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+
+::placeholder {
+    color: #555555;
+}
+
+
+.noteImg {
+    padding-left: 8px;
+    margin-right: 16px;
+    margin-left: 12px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+
+.noteIcons {
+    display: flex;
+    justify-content: end;
+}
+
+
+.noteImg:hover {
+    transform: translate3d(0, 5px, 0);
+}
+
+
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.asside {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    height: fit-content;
+    width: 125px;
+    background-color: rgb(106, 179, 179);
+    border-radius: 15px;
+}
+
+
+.warning {
+    font-size: 14px;
+    color: rgb(230, 136, 14);
+}
+
+
+.textarea {
+    height: 145px;
+    font-family: "Playwrite DE Grund";
+    background-color: #a3e59e;
+    font-size: 24px;
+    padding-top: 18px;
+    margin-right: 32px;
+    margin-left: 12px;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+
+@media (max-width: 840px) {
+    .main {
+        width: 400px;
+        margin-top: 32px;
+        margin-inline: 0;
+    }
+
+    .sideIcon {
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .asside {
+        width: 64px;
+    }
+
+    h1 {
+        font-size: 38px;
+        width: 32vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .main {
+        width: 270px;
+    }
+
+
+}
+

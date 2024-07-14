@@ -1,0 +1,82 @@
+.trash {
+    width: 32px;
+    padding-top: 8px;
+}
+
+
+.trash:hover {
+    transform: translate3d(0, 5px, 0);
+}
+
+
+.check {
+    width: 32px;
+    padding: 8px;
+    padding-inline: 16px;
+}
+
+
+.check:hover {
+    transform: translate3d(0, 5px, 0);
+}
+
+
+.postIcon {
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    align-items: end;
+    padding-inline: 12px;
+    flex: 1;
+}
+
+
+.sideIcon {
+    height: 48px;
+    width: 48px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #ff7f7f;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+
+.sideIcon:hover {
+    cursor: pointer;
+    transform: translate3d(0, 5px, 0);
+}
+
+
+.dispose {
+    width: 32px;
+}
+
+
+.x {
+    width: 48px;
+    height: 48px;
+    padding-left: 165px;
+    cursor: pointer;
+}
+
+
+.pin {
+    width: 32px;
+    padding-top: 8px;
+    padding-inline: 16px;
+}
+
+
+.pin:hover {
+    transform: translate3d(0, 5px, 0);
+}
+
+
+@media (max-width: 840px) {
+    .sideIcon {
+        width: 32px;
+        height: 32px;
+
+    }
+}
